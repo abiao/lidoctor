@@ -1,0 +1,15 @@
+#!/bin/sh
+echo "key prefix start end ..."
+key=$1
+prefix=$2
+start=$3
+end=$4
+shift
+shift
+shift
+shift
+
+for n in `seq $start $end`; do
+	node=`printf ${prefix}%02d $n`;
+	echo ssh -i $key $node $@;
+done
