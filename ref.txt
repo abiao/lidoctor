@@ -1,0 +1,5 @@
+http://www.cstor.cn/textdetail_7491.html
+http://www.brendangregg.com/linuxperf.html
+http://www.brendangregg.com/blog/2014-11-22/linux-perf-tools-2014.html
+http://www.brendangregg.com/dtrace.html
+
